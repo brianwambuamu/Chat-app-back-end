@@ -3,3 +3,6 @@ class Message < ApplicationRecord
     validates :sender, presence: true
     validates :receiver, presence: true
 end
+
+end
+
