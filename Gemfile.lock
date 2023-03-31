@@ -75,7 +75,7 @@ GEM
     builder (3.2.4)
     case_transform (0.2)
       activesupport
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.1.10)
     crass (1.0.6)
     date (3.3.3)
     debug (1.7.0)
@@ -92,7 +92,7 @@ GEM
     irb (1.5.1)
       reline (>= 0.3.0)
     jsonapi-renderer (0.2.2)
-    loofah (2.19.1)
+    loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.8.1)

@@ -17,4 +17,3 @@ class MessageSerializer < ActiveModel::Serializer
     User.find_by(id: self.object.receiver)&.username
   end
 end
-
