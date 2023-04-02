@@ -22,6 +22,13 @@ module ChatApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
+    # Cookies and sessions
+        # Adding cookies and session middleware
+        config.session_store :cookie_store, key: '_interslice_session'
+        config.middleware.use ActionDispatch::Cookies
+        config.middleware.use ActionDispatch::Session::CookieStore
+        config.middleware.use config.session_store, config.session_options
+        config.action_dispatch.cookies_same_site_protection = :strict
 
     # Configuration for the application, engines, and railties goes here.
     #
