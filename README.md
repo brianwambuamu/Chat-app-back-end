@@ -2,7 +2,7 @@
 
 ## Brief Description
 Before we start, I'll provide a list of useful links;
-1. [Front end as deployed on Netlify](https://chat-app-front-end-phi.vercel.app)
+1. [Front end as deployed on Vercel](https://chat-app-front-end-phi.vercel.app)
 2. [Back end which is deployed on Render.com](https://chat-app-back-end-qd27.onrender.com)
 
 3. [A link to the github repo for the front end](https://github.com/brianwambuamu/chat-app-front-end)
